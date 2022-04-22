@@ -1,1 +1,18 @@
-@import "components/blocks/";
+@import "components/default-settings/default.css";
+
+@import "components/blocks/header/header.css";
+@import "components/blocks/header/header__wrapper/header__wrapper.css";
+
+
+@import "components/blocks/logo/logo.css";
+@import "components/blocks/logo/logo__text/logo__text.css";
+
+@import "components/blocks/menu/menu.css";
+@import "components/blocks/menu/menu__list/menu__list.css";
+@import "components/blocks/menu/menu__link/menu__link.css";
+
+@import "components/blocks/auth-header/auth-header.css";
+@import "components/blocks/auth-header/auth-header__list/auth-header__list.css";
+@import "components/blocks/auth-header/auth-header__list-item/auth-header__list-item.css";
+@import "components/blocks/auth-header/auth-header__link/auth-header__link.css";
+@import "components/blocks/auth-header/auth-header__link/--login/auth-header__link-login.css";

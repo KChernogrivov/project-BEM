@@ -1,0 +1,5 @@
+.auth-header__link--login {
+    padding: 15px 25px;
+    background-color: orangered;
+    border-radius: 20px;
+}
