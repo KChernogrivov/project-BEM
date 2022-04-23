@@ -1,0 +1,27 @@
+.explore {
+    height: 100%;
+    padding: 0 0 20vh 0;
+    width: 100%;
+    background: linear-gradient(145deg, #428E5F, #112120);
+    position: relative;
+}
+
+.explore:before {
+    content: "";
+    height: 13%;
+    width: 47%;
+    position: absolute;
+    background: linear-gradient(to left bottom, transparent 49%, white 50.8%) left / 100% 100% no-repeat;
+    bottom: 0;
+    left: 0;
+}
+
+.explore:after {
+    content: "";
+    height: 13%;
+    width: 47%;
+    position: absolute;
+    background: linear-gradient(to right bottom, transparent 49%, white 50.8%) left / 100% 100% no-repeat;
+    bottom: 0;
+    right: 0;
+}

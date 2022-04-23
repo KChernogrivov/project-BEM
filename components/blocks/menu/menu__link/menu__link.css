@@ -1,13 +1,10 @@
 .menu__link {
-    text-decoration: none;
-    font-family: "Arial", serif;
-    color: white;
-    font-weight: bold;
-    text-transform: capitalize;
+    transition: 0.4s;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
 }
 
-.menu__link:after {
-    width: 20px;
-    height: 2px;
-    background-color: white;
+.menu__link:focus {
+    border-bottom: 2px solid white;
+    border-radius: 2px;
 }
