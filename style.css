@@ -36,9 +36,14 @@
 @import "components/blocks/block-title/--color/--white/block-title--color--white.css";
 
 @import "components/blocks/block-text/block-text.css";
-@import "components/blocks/block-text/--color/--gray/block-title--color--gray.css";
+@import "components/blocks/block-text/--color/--gray/block-text--color--gray.css";
+@import "components/blocks/block-text/--color/--black/block-text--color--black.css";
 
 @import "components/blocks/nameplate/nameplate.css";
 @import "components/blocks/nameplate/__text/nameplate__text.css";
 @import "components/blocks/nameplate/__text/--color/--white/nameplate__text--color--white.css";
 @import "components/blocks/nameplate/__text/--color/--black/nameplate__text--color--black.css";
+
+@import "components/blocks/gallery/gallery.css";
+@import "components/blocks/gallery/gallery__content/gallery__content.css";
+@import "components/blocks/gallery/gallery__wrapper/gallery__wrapper.css";
