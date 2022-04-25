@@ -2,6 +2,6 @@ let offset = 0;
 const sliderLine = document.querySelectorAll(".slider__line");
 
 document.querySelector(".btn-next").addEventListener("click", () => {
-    offset < -768? offset = 0:offset -= 256;
+    offset < -1200? offset = 0:offset -= 400;
     sliderLine.forEach((item) => item.style.left = offset + "px");
 })
