@@ -5,7 +5,6 @@
 @import "components/blocks/header/header.css";
 @import "components/blocks/header/header__wrapper/header__wrapper.css";
 
-
 @import "components/blocks/logo/logo.css";
 @import "components/blocks/logo/logo__text/logo__text.css";
 
@@ -22,10 +21,7 @@
 @import "components/blocks/auth-header/auth-header__list-item/auth-header__list-item.css";
 @import "components/blocks/auth-header/auth-header__link/auth-header__link.css";
 
-
 @import "components/blocks/block-title/block-title.css";
-
-
 
 @import "components/blocks/explore/explore__wrapper/explore__wrapper.css";
 
@@ -49,6 +45,7 @@
 @import "components/blocks/gallery/gallery__wrapper/gallery__wrapper.css";
 
 .slider {
+    position: relative;
     width: calc(256*4px);
     height: 500px;
     display: flex;
@@ -83,4 +80,43 @@
 
 .slider__item-center {
     height: 500px;
+}
+
+.btn-next {
+    cursor: pointer;
+    background: linear-gradient(145deg, #FF7B4E, #FF584E);
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    left: -20px;
+    top: 48%;
+    width: 50px;
+    aspect-ratio: 1;
+    border: 0;
+}
+
+.btn-next::before {
+    transform: rotate(315deg);
+    z-index: 3;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    left: 17px;
+    top: 19px;
+}
+
+.btn-next::after {
+    transform: rotate(45deg);
+    z-index: 3;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    left: 17px;
+    bottom: 18px;
 }
