@@ -1,0 +1,8 @@
+.slider {
+    position: relative;
+    width: calc(256*4px);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

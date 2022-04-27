@@ -1,0 +1,7 @@
+.slider__item {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+}

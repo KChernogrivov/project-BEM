@@ -1,0 +1,6 @@
+.slider__line {
+    left: 0;
+    position: relative;
+    display: flex;
+    transition: all 0.2s;
+}

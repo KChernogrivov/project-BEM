@@ -1,0 +1,38 @@
+.btn-back {
+    cursor: pointer;
+    background: linear-gradient(145deg, #FF7B4E, #FF584E);
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    left: -20px;
+    top: 48%;
+    width: 50px;
+    aspect-ratio: 1;
+    border: 0;
+}
+
+.btn-back::before {
+    transform: rotate(315deg);
+    z-index: 3;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    left: 17px;
+    top: 19px;
+}
+
+.btn-back::after {
+    transform: rotate(45deg);
+    z-index: 3;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    left: 17px;
+    bottom: 18px;
+}
